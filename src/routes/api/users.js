@@ -2,7 +2,7 @@ const express = require("express")
 const router = express.Router()
 const { check, validationResult } = require("express-validator")
 const User = require("../../models/User")
-
+const gravatar = require("gravatar")
 // @route:   GET api/users
 // @desc:    test route
 // @access:  public
