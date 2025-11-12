@@ -1,2 +1,3 @@
 ### 
-GET http://localhost:3000/api/profile/
+GET http://localhost:3000/api/profile/me
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjkxNGYxZTRiZmZjZTAzMzRjZWQxZDUxIn0sImlhdCI6MTc2Mjk4MDMyNCwiZXhwIjoxNzYzMzQwMzI0fQ.oJLr4Ki1GlpXeL1aYDYsTqBfhdFumU4aaFDx6X9CRac
