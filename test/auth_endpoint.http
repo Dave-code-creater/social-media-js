@@ -1,2 +1,4 @@
 ### 
 GET http://localhost:3000/api/auth/
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjkxNGU5ZmZmOWNiNDE1YzNiY2YzYTI2In0sImlhdCI6MTc2Mjk3ODMwMywiZXhwIjoxNzYzMzM4MzAzfQ.jBx-tDnqX9RiYNPx0IAQicV-7rB1M68cAa_Nwv4dpaE

@@ -3,12 +3,12 @@ const config = require("config")
 
 module.exports = function(req, res, next) {
     // Get token from a header of request
-    const tokens = req.header("x-auth-token")
-    if (!tokens) {
+    const token = req.header("x-auth-token")
+    if (!token) {
         return res.status(401).json({ msg: "No token, authorization denied"});
     }
     try {
-    // Check the validations of that tokens
+    // Check the validations of that token
         const decode = jwt.verify(token, config.get("jwtSecret"));
 
         req.user = decode.user;
